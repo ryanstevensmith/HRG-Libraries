@@ -1,8 +1,56 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATmega64M1-AU
+D 16MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, CAN, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP BMI088
+D Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output
+K Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/product_flyer/bst-bmi088-fl000.pdf
+$ENDCMP
+#
+$CMP INA219AIDCNR
+D Current & Power Monitors & Regulators 0-Drift Bi-Dir Crnt Pwr Monitor
+K Current & Power Monitors & Regulators 0-Drift Bi-Dir Crnt Pwr Monitor
+F https://www.ti.com/lit/ds/symlink/ina219
+$ENDCMP
+#
 $CMP MAX-M8C-0
 D RF RCVR GNSS/GPS 1.575GHZ 18LCC
 F https://www.u-blox.com/en/docs/UBX-16000093
+$ENDCMP
+#
+$CMP MCP73831T
+D Miniature Single-Cell, Fully Integrated Li-Ion
+K Miniature Single-Cell, Fully Integrated Li-Ion
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
+$ENDCMP
+#
+$CMP MIC26903YJL-TR
+D Switching Voltage Regulators 28V, 9A HyperLight Load Synchronous DC/DC Buck Regulato
+K Switching Voltage Regulators 28V, 9A HyperLight Load Synchronous DC/DC Buck Regulato
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC26903.pdf
+$ENDCMP
+#
+$CMP RFM98W-433S2
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+$ENDCMP
+#
+$CMP S2B-XH-A(LF)(SN)
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=114-25026&DocType=SS&DocLang=EN
+$ENDCMP
+#
+$CMP XT60-M
+D Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V
+K Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V
+F https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
 $ENDCMP
 #
 #End Doc Library
