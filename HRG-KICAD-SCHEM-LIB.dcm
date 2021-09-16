@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 24AA256UID
+D EEPROM, 256 Kbit, 32K x 8bit, Serial I2C (2-Wire), 400 kHz, SOIC, 8 Pins
+F https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0002344565/MCHP-S-A0002344565-1.pdf?hkey=52A5661711E402568146F3353EA87419
+$ENDCMP
+#
 $CMP ATmega328P-AU
 D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
@@ -47,10 +52,25 @@ K Miniature Single-Cell, Fully Integrated Li-Ion
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
 $ENDCMP
 #
+$CMP MCP7940M-I_MS
+D RTC IC, Date Time Format (Date/Month/Year hh:mm:ss), I2C, 1.8 V to 5.5 V, MSOP-8
+F http://ww1.microchip.com/downloads/en/devicedoc/20002292b.pdf
+$ENDCMP
+#
 $CMP MIC26903YJL-TR
 D Switching Voltage Regulators 28V, 9A HyperLight Load Synchronous DC/DC Buck Regulato
 K Switching Voltage Regulators 28V, 9A HyperLight Load Synchronous DC/DC Buck Regulato
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC26903.pdf
+$ENDCMP
+#
+$CMP MIC5317-3.3YM5-TR
+D Fixed LDO Voltage Regulator, 2.5V to 6V, 155mV drop, 3.3V/150mA out, SOT-23-5
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317.pdf
+$ENDCMP
+#
+$CMP MS563702BA03-50
+D Low Voltage Barometric Pressure Sensor 
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5637-02BA03&DocType=Data+Sheet&DocLang=English
 $ENDCMP
 #
 $CMP RFM98W-433S2
@@ -68,6 +88,12 @@ $ENDCMP
 $CMP SC1117-3.3V
 D Fixed 7V 3.3V 1.5V @ 700mA SOT-223 Dropout Regulators(LDO) RoHS
 K Fixed 7V 3.3V 1.5V @ 700mA SOT-223 Dropout Regulators(LDO) RoHS
+$ENDCMP
+#
+$CMP TXB0101DCKR
+D 1-Bit Bidirectional Level-Shifting and Voltage Translator
+K level shifter
+F https://www.ti.com/lit/ds/symlink/txb0101.pdf
 $ENDCMP
 #
 $CMP XT60-M
